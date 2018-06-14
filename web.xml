@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="3.1" xmlns="http://java.sun.com/xml/ns/javee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javae
+http://java.sun/xml/ns/javaee/web=app 3 0.xsd:">
+    <servlet>
+        <servlet-name>GroupSchedule</servlet-name>
+        <servlet-class>MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GroupSchedule</servlet-name>
+        <url-pattern>/GroupSchedule</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>Index.html</welcome-file>
+    </welcome-file-list>
+</web-app>
+
+
+<root>
+    
+</root>
